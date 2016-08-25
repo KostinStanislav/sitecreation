@@ -1,0 +1,54 @@
+body{width:1200px; }
+header{
+    background-image:url(pics/aviation_bg.jpg);
+   
+    height:600px;
+}
+nav{
+    text-align: right;
+    padding:10px 10px 0px 0px;
+    
+}
+a{
+    text-decoration: none;
+}
+.intro{
+    text-align: center;
+    vertical-align: middle;
+    font-size:40px;
+    font-family: Arial;
+    
+}
+
+#com{
+    margin:150px
+    
+}
+#logo{
+    display:block;
+    margin: auto;
+    width:200px;
+    border-radius: 50%;
+}
+#anc{
+   
+    text-align: center
+}
+h1 {
+    text-align: center;
+}
+.comparisson{
+    width:400px;
+    height:400px;
+    float:left;
+    padding:0px 100px 0px 100px;
+    
+}
+hr{
+    clear:left;
+    
+}
+.cop{
+    width:400px;
+    height:300px;
+}
