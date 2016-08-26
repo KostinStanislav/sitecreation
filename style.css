@@ -49,7 +49,7 @@ a{
 }
 #anc{
    
-    text-align: center
+    text-align: center;
 }
 h1 {
     text-align: center;
@@ -81,6 +81,7 @@ figure{
 }
 #hob{
     clear:both;
+    float: right;
 }
 p{
     font-size:22px;
@@ -127,6 +128,7 @@ td{
     position: absolute;
     width:370px;
      margin:-20px 0px 0px 20px;
+    
 }
 #training{
      position: absolute;
@@ -141,4 +143,20 @@ td{
 .text{
     font-size:30px;
     margin-top:40px;
+}
+#form{
+    float: left;
+}
+#social{
+    float: right;
+}
+footer{
+    clear: both;
+}
+#contact{
+    clear: both;
+}
+#hob{
+    text-align: right;
+    margin-right:500px;
 }
