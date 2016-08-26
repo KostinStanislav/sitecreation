@@ -4,7 +4,7 @@ body{
     
 }
 header{
-    background-image:url(pics/flight.jpeg);
+    background-image:url(pics/aviation_bg.jpg);
     background-size: cover;
    
     height:600px;
@@ -14,25 +14,33 @@ nav{
     padding:10px 10px 0px 0px;
     
 }
+nav a {
+    font-size: 16px;
+    font-family: Verdana;
+    border-right: 3px solid black;
+    padding-right: 4px
+}    
+
 a{
     text-decoration: none;
 }
 .intro{
     text-align: center;
-    vertical-align: middle;
+  
     font-size:40px;
     font-family: Arial;
     
 }
 
 #com{
-    margin:150px
+    margin:100px 0 150px 0;
     
 }
 #logo{
     display:block;
     margin: auto;
     width:200px;
+    height: 200px;
     border-radius: 50%;
 }
 #anc{
@@ -41,19 +49,42 @@ a{
 }
 h1 {
     text-align: center;
+    font-size: 25px;
 }
 .comparisson{
+    font-family: cursive;
+    font-size: 22px;
     width:400px;
-    height:400px;
+    height:500px;
     float:left;
     padding:0px 100px 0px 100px;
-    
 }
-hr{
-    clear:left;
-    
-}
+
 .cop{
     width:400px;
     height:300px;
+}
+#video{
+    height: 300px;
+}
+.who{
+    margin-top: 50px;
+}
+figure{
+    float:left;
+    width:400px;
+    text-align: center;
+}
+#hob{
+    clear:both;
+}
+p{
+    font-size:22px;
+    font-family: sans-serif;
+}
+figure{
+    height:250px;
+}
+figure img{
+    height: 200px;
 }
