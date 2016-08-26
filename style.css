@@ -4,12 +4,16 @@ body{
     
 }
 header{
+    position:relative;
     background-image:url(pics/aviation_bg.jpg);
     background-size: cover;
    
     height:600px;
 }
-nav{
+nav{position:relative;
+    right:-595px;
+    top:10px;
+    width: 600px;
     text-align: right;
     padding:10px 10px 0px 0px;
     
@@ -90,4 +94,21 @@ figure img{
 }
 video{
     margin-left:150px;
+}
+
+
+.pis{
+    width: 200px;
+    margin:50px 0 0px 100px;
+}
+
+table{
+    
+    width:1200px;
+    font-size:40px;
+}
+td{
+    width: 400px;
+    height:50px;
+    
 }
