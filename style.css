@@ -1,6 +1,11 @@
-body{width:1200px; }
+body{
+    width:1200px;
+    margin:0 auto;
+    
+}
 header{
-    background-image:url(pics/aviation_bg.jpg);
+    background-image:url(pics/flight.jpeg);
+    background-size: cover;
    
     height:600px;
 }
