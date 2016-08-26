@@ -65,7 +65,7 @@ h1 {
     height:300px;
 }
 #video{
-    height: 300px;
+    height: 520px;
 }
 .who{
     margin-top: 50px;
@@ -87,4 +87,7 @@ figure{
 }
 figure img{
     height: 200px;
+}
+video{
+    margin-left:150px;
 }
