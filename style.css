@@ -81,10 +81,10 @@ h1 {
     height:300px;
 }
 #video{
-    height: 520px;
+     background-color: #F7D7F3;
+    height: 550px;
 }
 .who{
-    margin-top: 50px;
     background-color: #ADD8E6;
 }
 figure{
@@ -235,3 +235,4 @@ footer{
 .cuks{
     width: 100px;
 }
+
