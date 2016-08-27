@@ -73,6 +73,7 @@ h1 {
 }
 .who{
     margin-top: 50px;
+    background-color: #ADD8E6;
 }
 figure{
     float:left;
@@ -148,13 +149,16 @@ td{
     float: left;
 }
 #social{
+     background-color: #EEDD82;
     float: right;
 }
 footer{
     clear: both;
 }
 #contact{
+    height:400px;
     clear: both;
+     background-color: #EEDD82;
 }
 #hob{
     text-align: right;
@@ -163,4 +167,22 @@ footer{
 h1{
     font-size: 30px;
     font-weight: bold;
+}
+#born{
+    float:left;
+}
+#uni{
+    float:right;
+
+}
+#uksatse{
+    position:relative;
+    clear:both;
+}
+#about{
+    height:400px;
+}
+#aandh{
+    height:760px;
+    background-color: #EEE9E9;
 }
