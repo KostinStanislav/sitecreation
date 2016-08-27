@@ -10,22 +10,33 @@ header{
    
     height:600px;
 }
+
+#up{
+    position: fixed;
+    width:50px;
+    bottom: 50px;
+    right:50px;
+    z-index: +1;
+    opacity: 0.7;
+}
 nav{position:relative;
-    right:-595px;
+    right:-475px;
     top:10px;
-    width: 600px;
+    width:700px;
     text-align: right;
     padding:10px 10px 0px 0px;
     
 }
 nav a {
-    font-size: 16px;
+    font-size: 14px;
     font-family: Verdana;
-    border-right: 3px solid black;
+    border: 3px solid black;
     padding-right: 4px
 }    
 
 a{
+    font-weight: bold;
+    color:black;
     text-decoration: none;
 }
 .intro{
@@ -42,18 +53,19 @@ a{
 }
 #logo{
     display:block;
-    margin: auto;
+    margin:auto;
     width:200px;
     height: 200px;
     border-radius: 50%;
 }
 #anc{
    
-    text-align: center;
+  font-size: 25px;  
 }
 h1 {
     text-align: center;
-    font-size: 25px;
+     font-size: 30px;
+    font-weight: bold;
 }
 .comparisson{
     font-family: cursive;
@@ -103,6 +115,7 @@ table{
     position: relative;
     width:1200px;
     margin-bottom: 100px;
+    z-index: 0;
 }
 td{
     width: 400px;
@@ -147,10 +160,12 @@ td{
 }
 #form{
     float: left;
+    margin-left: 100px;
 }
 #social{
      background-color: #EEDD82;
     float: right;
+    margin-right: 200px;
 }
 footer{
     clear: both;
@@ -164,10 +179,7 @@ footer{
     text-align: right;
     margin-right:500px;
 }
-h1{
-    font-size: 30px;
-    font-weight: bold;
-}
+
 #born{
     float:left;
 }
@@ -185,4 +197,41 @@ h1{
 #aandh{
     height:760px;
     background-color: #EEE9E9;
+}
+#av{
+    margin-left:20px;
+}
+#na{
+    margin-left: 460px;
+}
+#co{
+    margin-left:385px ;
+}
+
+    @-webkit-keyframes rotating {
+    from{
+       transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.prop{
+    position:absolute;
+    width:100px;
+   animation: rotating 2s linear infinite;
+}
+#rightprop{
+    margin: 200px 0px 0px 700px;
+}
+#leftprop{
+    margin: 200px 0px 0px 400px;
+}
+#uksatse{
+    position: absolute;
+  margin-left: 20px;
+}
+
+.cuks{
+    width: 100px;
 }
